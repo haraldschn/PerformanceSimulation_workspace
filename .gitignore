@@ -8,3 +8,6 @@ code_gen/temp
 *.c
 *.o 
 *.so
+
+temp*
+trace*

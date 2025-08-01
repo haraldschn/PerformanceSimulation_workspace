@@ -6,7 +6,7 @@ import sys
 # Read input arguments
 argParser = argparse.ArgumentParser()
 argParser.add_argument("targetSW", help="Target software handle (e.g.: dhry, em:cubic)")
-argParser.add_argument("-c", "--core", help="Target core architecture [cv32e40p | cva6]")
+argParser.add_argument("-c", "--core", help="Target core architecture [cv32e40p | cva6 | rv32_4issue]")
 args, args_passThrough = argParser.parse_known_args()
 
 sim_args = ""
@@ -30,6 +30,8 @@ elif len(split:=args.targetSW.split(":")) == 2:
       targetSW = os.environ.get(targetSW_prefix + "EMBENCH") + "/" + split[1]
    elif split[0] == "dhry":
       targetSW = os.environ.get(targetSW_prefix + "DHRYSTONE_OFFSET") + "-" + split[1]
+   elif split[0] == "test":
+      targetSW = os.environ.get(targetSW_prefix + "TEST") + "/" + split[1]
    else:
       targetSW_failed = True
 else:
