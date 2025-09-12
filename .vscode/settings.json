@@ -88,5 +88,6 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/mnt/windows/__Programmieren/etiss/PerformanceSimulation_workspace/etiss-perf-sim/etiss"
 }
