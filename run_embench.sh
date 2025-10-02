@@ -28,5 +28,5 @@ for file in $directory; do
     mv timing_trace temp/${base}/timing_trace
     mkdir asm_trace
     mkdir timing_trace
-    #read -p "Press enter to continue"
+    # read -p "Press enter to continue"
 done
