@@ -1,9 +1,9 @@
 [submodule "etiss-perf-sim"]
 	path = etiss-perf-sim
-	url = git@github.com:tum-ei-eda/etiss-perf-sim.git
+	url = git@github.com:haraldschn/etiss-perf-sim.git
 [submodule "M2-ISA-R-Perf"]
 	path = code_gen/generators/M2-ISA-R-Perf
-	url = git@github.com:tum-ei-eda/M2-ISA-R-Perf.git
+	url = git@github.com:haraldschn/M2-ISA-R-Perf.git
 [submodule "code_gen/generators/M2-ISA-R"]
 	path = code_gen/generators/M2-ISA-R
 	url = git@github.com:tum-ei-eda/M2-ISA-R.git
@@ -12,4 +12,4 @@
 	url = git@github.com:tum-ei-eda/etiss_arch_riscv.git
 [submodule "code_gen/descriptions/core_perf_dsl"]
 	path = code_gen/descriptions/core_perf_dsl
-	url = git@github.com:tum-ei-eda/CorePerfDSL-Examples.git
+	url = git@github.com:haraldschn/CorePerfDSL-Examples.git

@@ -1,4 +1,10 @@
+.vscode
 *~
 *#
 code_gen/out
 code_gen/temp
+
+temp*
+trace*
+asm_trace
+timing_trace

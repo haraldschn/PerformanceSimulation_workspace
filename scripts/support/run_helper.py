@@ -35,6 +35,8 @@ elif len(split:=args.targetSW.split(":")) == 2:
       targetSW = os.environ.get(targetSW_prefix + "EMBENCH") + "/" + split[1]
    elif split[0] == "dhry":
       targetSW = os.environ.get(targetSW_prefix + "DHRYSTONE_OFFSET") + "-" + split[1]
+   elif split[0] == "test":
+      targetSW = os.environ.get(targetSW_prefix + "TEST") + "/" + split[1]
    else:
       targetSW_failed = True
 else:
