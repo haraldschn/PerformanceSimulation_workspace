@@ -42,9 +42,9 @@ _start:
     
     .align 2
     .terminate:
-    li a0, 0x11100000
-    li a1, 0x55
-    sb a1, 0(a0)
+    #li a0, 0x11100000
+    #li a1, 0x55
+    #sb a1, 0(a0)
     .end_loop:
         j .end_loop
     
