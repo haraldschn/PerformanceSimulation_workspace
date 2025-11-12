@@ -6,7 +6,7 @@ import sys
 # Read input arguments
 argParser = argparse.ArgumentParser()
 argParser.add_argument("targetSW", help="Target software handle (e.g.: dhry, em:cubic)")
-argParser.add_argument("-c", "--core", help="Target core architecture [cv32e40p | cva6 | rv32_4issue]")
+argParser.add_argument("-c", "--core", help="Target core architecture [cv32e40p | cva6 | soomrv]")
 args, args_passThrough = argParser.parse_known_args()
 
 sim_args = ""
