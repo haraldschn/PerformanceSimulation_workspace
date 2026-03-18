@@ -2,8 +2,8 @@
 
 # Iterate over all files in the test_programs directory
 #TARGET=cv32e40p
-TARGET=cva6
-#TARGET=rv32_ooo
+#TARGET=cva6
+TARGET=rv32_ooo
 
 rm -rf temp
 rm -rf asm_trace
